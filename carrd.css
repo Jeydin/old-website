@@ -536,7 +536,7 @@ p .li {
 }
 
 #h1 {
-    color: #F6F4DA;
+    color: #Ecf3f9;
     font-family: 'Roboto', sans-serif;
     font-size: 2.5em;
     line-height: 1.25;
@@ -556,7 +556,7 @@ p .li {
 }
 
 .inner > p {
-    color: #F6F4DA;
+    color: #Ecf3f9;
     font-family: 'Roboto', sans-serif;
     font-size: 1em;
     line-height: 1.75;
@@ -631,7 +631,7 @@ p .li {
 }
 
 #icons01 a svg {
-    fill: #F6F4DA;
+    fill: #fff;
 }
 
 #icons01 li a+svg {
