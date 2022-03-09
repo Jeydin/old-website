@@ -257,6 +257,35 @@ body:before {
     background-color: #FFFFFF;
 }
 
+video {
+	object-fit: cover;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.video-wrapper {
+  /* Telling our absolute positioned video to 
+  be relative to this element */
+  position: relative;
+
+  width: 400px;
+  height: 200px;
+
+  /* Will not allow the video to overflow the 
+  container */
+  overflow: hidden;
+
+  /* Centering the container's content vertically 
+  and horizontally */
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 :root {
     --site-language-direction: ltr;
     --site-language-alignment: left;
@@ -507,7 +536,7 @@ p .li {
 }
 
 #h1 {
-    color: #FFFFFF;
+    color: #F6F4DA;
     font-family: 'Roboto', sans-serif;
     font-size: 2.5em;
     line-height: 1.25;
@@ -527,7 +556,7 @@ p .li {
 }
 
 .inner > p {
-    color: #FFFFFF;
+    color: #F6F4DA;
     font-family: 'Roboto', sans-serif;
     font-size: 1em;
     line-height: 1.75;
@@ -602,7 +631,7 @@ p .li {
 }
 
 #icons01 a svg {
-    fill: #fff;
+    fill: #F6F4DA;
 }
 
 #icons01 li a+svg {
