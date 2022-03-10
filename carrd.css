@@ -464,6 +464,7 @@ body.is-instant:after {
     position: relative;
     max-width: 100%;
     display: block;
+		transition-duration: 4s;
 }
 
 .image .frame {
@@ -474,6 +475,10 @@ body.is-instant:after {
     overflow: hidden;
     -webkit-backface-visibility: hidden;
     -webkit-transform: translate3d(0, 0, 0);
+}
+
+.frame:hover {
+	transform: scale(1.2);
 }
 
 .image .frame img {
@@ -499,7 +504,7 @@ body.is-instant:after {
 
 #image01 .frame {
     width: 6rem;
-    transition: none;
+    transition-duration: .3s;
 }
 
 #image01 .frame img {
