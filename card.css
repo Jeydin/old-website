@@ -253,14 +253,14 @@ body:before {
     background-position: 0% 0%, top left;
     background-repeat: repeat, no-repeat;
     background-size: auto, cover;
-    background-color: #FFFFFF;
+    background-color: black;
 }
 
 video {
 	object-fit: cover;
   height: 100%;
   width: 100%;
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
 }
