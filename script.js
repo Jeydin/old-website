@@ -8,7 +8,6 @@ colors = {
 
 window.onload = function () {
     var str = ""
-
     Object.entries(colors).forEach(function ([k, v]) {
         str = str.concat(`#icons01 .${k} button:hover {
             background-color: rgb(${v}) !important;
