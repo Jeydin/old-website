@@ -574,7 +574,7 @@ p .li {
 }
 
 .inner > p {
-    color: white;
+    color: yellow;
     font-family: 'Roboto', sans-serif;
     font-size: 1em;
     line-height: 1.75;
