@@ -264,7 +264,7 @@ body:before {
     pointer-events: none;
     transform: scale(1);
     background-attachment: scroll;
-    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.000004), rgba(0, 0, 0, 0.000004)), url('/assets/images/bg.jpg');
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.000004), rgba(0, 0, 0, 0.000004)), url('/assets/liyue.jpg');
     background-position: 0% 0%, top left;
     background-repeat: repeat, no-repeat;
     background-size: auto, cover;
@@ -576,7 +576,7 @@ p .li {
 }
 
 .inner > p {
-    color: yellow;
+    color: black;
     font-family: 'Roboto', sans-serif;
     font-size: 1em;
     line-height: 1.75;
