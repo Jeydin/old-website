@@ -556,7 +556,7 @@ p .li {
 }
 
 #h1 {
-    color: white;
+    color: ##FFC0CB;
     font-family: 'Roboto', sans-serif;
     font-size: 2.5em;
     line-height: 1.25;
@@ -576,7 +576,7 @@ p .li {
 }
 
 .inner > p {
-    color: black;
+    color: #FFC0CB;
     font-family: 'Roboto', sans-serif;
     font-size: 1em;
     line-height: 1.75;
