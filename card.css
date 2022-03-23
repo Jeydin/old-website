@@ -264,7 +264,7 @@ body:before {
     pointer-events: none;
     transform: scale(1);
     background-attachment: scroll;
-    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.000004), rgba(0, 0, 0, 0.000004)), url('/assets/liyue.jpg');
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.000004), rgba(0, 0, 0, 0.000004)), url('/assets/cliffs.jpg');
     background-position: 0% 0%, top left;
     background-repeat: repeat, no-repeat;
     background-size: auto, cover;
@@ -371,7 +371,6 @@ a {
     position: relative;
     z-index: 2;
     overflow: hidden;
-    background-image: "/assets/images/bg.jpg";
 }
 
 #main {
